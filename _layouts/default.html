@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>{{page.title}}</title>
+  <script src="https://use.fontawesome.com/a9f7b676b3.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+  <section class="top-banner">
+      <!--header-->
+      <header>
+        <div class="logo">DS logo</div>
+        <nav>
+          <a href="">ABOUT</a>
+          <a href="">SKILLS</a>
+          <a href="">EXPERIENCE</a>
+          <a href="">CONTACT</a>
+        </nav>
+      </header>
+    <!--Intro-->
+    <section class="intro">
+      <div class="intro-box">
+        <h1>
+          <div class="intro-tagline">Marketing Consultant</div>
+          DESIREE
+          <div class="intro-tagline">Los Angeles, Ca</div>
+        </h1>
+      </div>
+    </section>
+  </section> <!-- end top-banner -->
+
+{{content}}
+
+<!--Footer section-->
+<footer>
+  <h2>Get in Touch</h2>
+  <form method="POST" action="http://formspree.io/desiree@desireesanchez.com">
+    <input type="hidden" name="_subject" value="Marketing Inquiry" />
+    <label for="name">Your Name</label>
+      <input type="text" name="name" placeholder="Your name">
+    <label for="email">Your Email</label>
+      <input type="email" name="email" placeholder="Your email">
+    <label for="phone">Your phone</label>
+      <input type="text" name="phone" placeholder="Your phone number">
+    <label for="message">Your Comments</label>
+      <textarea name="message" placeholder="Your message to me"></textarea>
+    <button type="submit">Send</button>
+  </form>    <!--Social media-->
+  <div>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  </div>
+</footer>
+</body>
+</html>

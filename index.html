@@ -1,0 +1,90 @@
+---
+layout: default
+title: Practice Portfolio
+map: <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423078.93043892964!2d-118.2387444891232!3d34.06171684091475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+CA%2C+USA!5e0!3m2!1sen!2sid!4v1493969147226" width="990" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+skills:
+  - name: Twerkout Queen
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    icon: pencil-square-o
+  - name: Brand Development
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    icon: pencil-square-o
+  - name: Website Design &amp; Development
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    icon: pencil-square-o
+  - name: Marketing Research &amp; Strategy
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    icon: pencil-square-o
+  - name: Digital Marketing
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    icon: pencil-square-o
+  - name: Traditional Marketing
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+experience:
+  - company: Freelancer
+    title: Marketing Consultant
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - company: BVN
+    title: Marketing Director
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - company: AMG
+    title: VP of Marketing
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - company: HMA
+    title: Internet Marketing Manager
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
+<!--END JEKYLL LAYOUTS-->
+
+<!--About me -->
+  <section class="about">
+    <div class="about">
+      <h2>About Me</h2>
+      <p>
+        Desiree helps other Entrepreneurs and businesses grow through website design and development, and better marketing. When I'm not working or volunteering, I enjoy live music, traveling, kickboxing, dancing, golfing, and hiking every chance I get!
+      </p>
+    </div>
+  </section>
+  <!--My skills-->
+  <section class="grid skills">
+    <h2 class="col-12">Skills</h2>
+
+    {% for skill in page.skills %}
+    <div class="col-4 skills-content"> <!--skill 1 -->
+      <i class="fa fa-{{ skill.icon }}" aria-hidden="true"></i>
+      <h3>{{ skill.name }}</h3>
+      <p>
+        {{ skill.description }}
+      </p>
+    </div>
+    {% endfor %}
+
+  </section>
+
+  <!--Map-->
+  {{page.map}}
+
+  <!--START TEST My Experience-->
+  <section class="grid myExperience">
+    <h2 class="col-12 myExperience">My Experience</h2>
+
+    {% for every position in page.experience %}
+    <div class="col-12 grid experience-content">
+      <div class="col-2">
+        <i class="fa fa-envira" aria-hidden="true"></i>
+      </div>
+      <div class="col-4">
+        <h3>{{ position.company }}</h3>
+        <h4>{{ position.title }}</h4>
+      </div>
+      <div class="col-6">
+        <p>
+          {{ position.description }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+  <!--end TEST My Experience-->
